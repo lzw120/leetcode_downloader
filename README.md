@@ -3,6 +3,13 @@ Leetcode Downloader
 
 Downloader for your accpeted [leetcode oj](http://oj.leetcode.com/) submissions
 
+Dependency
+----------
+
+ * [mechanize](http://wwwsearch.sourceforge.net/mechanize/)
+ * [beautifulsoup4](http://www.crummy.com/software/BeautifulSoup/)
+
+just run `pip install -r requirements.txt` to install them
 
 Usage
 -----
