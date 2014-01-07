@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# -*- coding: utf-8 -*- 
 
 import sys
 import os
@@ -102,7 +103,8 @@ Usage:
             print 'Wring to %s' % filename
 
             f = open(filename, 'w')
-            f.write(code)
+            f.write(code.encode('utf8'))
             f.close()
+
 
 
