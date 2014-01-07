@@ -100,7 +100,7 @@ Usage:
             code, language = leetcodedownloader.read_code_by_submission_id(subid)
 
             filename = dirname + '/Solution.' + subid + '.' + language
-            print 'Wring to %s' % filename
+            print 'Writing to %s' % filename
 
             f = open(filename, 'w')
             f.write(code.encode('utf8'))

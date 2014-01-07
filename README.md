@@ -14,12 +14,12 @@ just run `pip install -r requirements.txt` to install them
 Usage
 -----
 
-Downloader will fetch your `ACCEPTED` submissions into respective dir based on prolem name
+Downloader will fetch your `ACCEPTED` submissions into respective dir based on problem name
 
     ./leetcode_downloader.py YOURNAME YOUR_PASSWOD
     
     Downloading accepted problem Linked List Cycle
-    Wring to linked-list-cycle/Solution.993783.java
+    Writing to linked-list-cycle/Solution.993783.java
     
     $ tree
     .
